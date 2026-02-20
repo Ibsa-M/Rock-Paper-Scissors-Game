@@ -1,0 +1,122 @@
+body{
+        display: flex;
+        font-family: Arial, sans-serif;
+        background-color: #1F2937;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+}
+h1{
+        flex-direction: column;
+        justify-content: center;
+        color: gold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: bold;
+        font-weight: 900;
+        font-size: 35px;
+}
+.top_text{
+        color: #f9faf8;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text{
+        color: #f9faf8;
+        font-size: 20px;
+        font-family: initial;
+}
+#score-display{
+        display: flex;
+        flex: row;
+        justify-content: right;
+}
+
+#button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 40px;
+}
+.btn {
+        
+        font-size: 60px;
+        padding: 30px 30px;
+        background-color: black;
+        border: none;
+        border-radius: 360px;
+        cursor: pointer;
+        margin: 30px 0 0 30px;      
+}
+.reset-btn {
+  display: block;
+  margin: 30px auto 0 auto;
+  flex-basis: 100%;
+}
+
+.btn:hover {
+        background-color: rgb(75, 200, 8);
+}
+.btn:active {
+        background-color: rgb(4, 136, 180); 
+}
+
+#resetBtn:hover{
+        background-color: yellow;
+}
+#resetBtn:active{
+        background-color: red;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: white
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+
+}
+.playerBox {
+    display: flex;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    /* border: 5px solid blue; */
+    background-color: #000;
+    border-radius: 10px;
+    font-size: 100px;
+}
+.computerBox {
+    display: flex;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    /* border: 5px solid blue; */
+    background-color: #000;
+    border-radius: 10px;
+    size: 40px;
+    font-size: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #7d16cc;
+    color: #f9faf8;
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+    height: auto;
+}
