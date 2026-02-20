@@ -42,5 +42,5 @@ When a player reaches 7 points, a SweetAlert popup displays the result and the g
 
 ## 🚀 Live Preview
 
- Click here to play: [👉] (https://ibsa-m.github.io/Rock-Paper-Scissors-Game)
+[🔴 Live Preview](https://ibsa-m.github.io/Rock-Paper-Scissors-Game/)
 
